@@ -277,7 +277,7 @@ if all_data:
     print(f"TMAX - Loss: {loss}, MAE: {mae}")
 
     # Pickle the model TMAX
-    with open('TMAX_model.pkl', 'wb') as f:
+    with open('tmax_model.pkl', 'wb') as f:
         pickle.dump(nn_models['TMAX'], f)
     
     # Prints loss and MAE for TMIN
@@ -286,7 +286,7 @@ if all_data:
     print(f"TMIN - Loss: {loss}, MAE: {mae}")
 
     # Pickle the model TMIN
-    with open('TMIN_model.pkl', 'wb') as f:
+    with open('tmin_model.pkl', 'wb') as f:
         pickle.dump(nn_models['TMIN'], f)
 
     # Prints loss and MAE for PRCP
@@ -295,7 +295,7 @@ if all_data:
     print(f"PRCP - Loss: {loss}, MAE: {mae}")
     
     # Pickle the model PRCP
-    with open('PRCP_model.pkl', 'wb') as f:
+    with open('prcp_model.pkl', 'wb') as f:
         pickle.dump(nn_models['PRCP'], f)
 
     # Prints loss and MAE for SNOW
@@ -304,7 +304,7 @@ if all_data:
     print(f"SNOW - Loss: {loss}, MAE: {mae}")
 
     # Pickle the model SNOW
-    with open('SNOW_model.pkl', 'wb') as f:
+    with open('snow_model.pkl', 'wb') as f:
         pickle.dump(nn_models['SNOW'], f)
 
     # Prints loss and MAE for AWND
@@ -313,7 +313,7 @@ if all_data:
     print(f"AWND - Loss: {loss}, MAE: {mae}")
 
     # Pickle the model AWND
-    with open('AWND_model.pkl', 'wb') as f:
+    with open('awnd_model.pkl', 'wb') as f:
         pickle.dump(nn_models['AWND'], f)
 
     # Print the Overall summary of evaluation results
