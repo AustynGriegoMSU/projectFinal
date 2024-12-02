@@ -17,15 +17,15 @@ app.config['SESSION_TYPE'] = 'filesystem'
 
 
 # Load pickled models and scaler
-with open('tmax_model.pkl', 'rb') as f:
+with open('TMAX_model.pkl', 'rb') as f:
     tmax_model = pickle.load(f)
-with open('tmin_model.pkl', 'rb') as f:
+with open('TMIN_model.pkl', 'rb') as f:
     tmin_model = pickle.load(f)
-with open('prcp_model.pkl', 'rb') as f:
+with open('PRCP_model.pkl', 'rb') as f:
     prcp_model = pickle.load(f)
-with open('snow_model.pkl', 'rb') as f:
+with open('SNOW_model.pkl', 'rb') as f:
     snow_model = pickle.load(f)
-with open('awnd_model.pkl', 'rb') as f:
+with open('AWND_model.pkl', 'rb') as f:
     awnd_model = pickle.load(f)
 with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
